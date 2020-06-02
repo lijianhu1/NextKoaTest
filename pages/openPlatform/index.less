@@ -1,0 +1,207 @@
+.open-platform {
+  .business-cooperation {
+    background-color: #ffffff;
+  }
+  .open-desc-item {
+    border-radius: 8px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 16px 0 rgba(2, 2, 2, 0.08);
+  }
+  .open-desc-item-top {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    p {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      color: #ffffff;
+      &:nth-of-type(1) {
+        transform: translate(-50%, -100%);
+      }
+      &:nth-of-type(2) {
+        transform: translate(-50%, 50%);
+      }
+    }
+  }
+  .open-desc-item-bottom {
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 68px;
+      }
+      span {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #333333;
+      }
+    }
+  }
+  .open-all-platform {
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      margin-top: 100px;
+    }
+    p {
+      &:nth-of-type(1) {
+        margin-top: 20px;
+        font-size: 23px;
+      }
+      &:nth-of-type(2) {
+        margin-top: 13px;
+        font-size: 13px;
+        color: #888888;
+      }
+    }
+  }
+  .layer-style {
+    p {
+      width: 90%;
+      text-align: left;
+      margin-left: 35px;
+      &:nth-of-type(1) {
+        margin-top: 39px;
+        margin-bottom: 0;
+        font-size: 33px;
+      }
+      &:nth-of-type(2) {
+        width: 56px;
+        height: 1px;
+        border: 1px solid #fec116;
+        border-radius: 1px;
+        background-color: #fec116;
+      }
+      &:nth-of-type(3) {
+        margin-top: 11px;
+        font-size: 17px;
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      &:nth-of-type(4) {
+        margin-top: 31px;
+        font-size: 17px;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .business-cooperation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 576px) {
+  .open-platform {
+    .business-cooperation {
+      padding-bottom: 50px;
+      &-title {
+        font-size: 36px;
+        margin: 34px auto 92px;
+      }
+    }
+    .open-desc-item-top {
+      p {
+        &:nth-of-type(1) {
+          font-size: 32px;
+        }
+        &:nth-of-type(2) {
+          font-size: 16px;
+        }
+      }
+    }
+    .business-cooperation-content {
+      .open-desc-item-bottom {
+        margin-top: 60px !important;
+      }
+    }
+    .all-platform {
+      &-title {
+        font-size: 36px;
+        margin-top: 34px;
+      }
+      &-divide {
+        height: 3px;
+        margin-top: -30px;
+        margin-bottom: 62px;
+      }
+    }
+    .open-domain-content {
+      &-title {
+        font-size: 36px;
+        margin-top: 36px;
+      }
+      &-footer {
+        width: 280px;
+        height: 50px;
+        margin-top: 90px;
+        margin-bottom: 180px;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .open-platform {
+    .business-cooperation {
+      padding-bottom: 25px;
+      &-title {
+        font-size: 20px;
+        margin: 36px auto 46px;
+      }
+    }
+    .business-cooperation-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .open-desc-item-top {
+        p {
+          &:nth-of-type(1) {
+            font-size: 16px;
+          }
+          &:nth-of-type(2) {
+            font-size: 12px;
+          }
+        }
+      }
+      .open-desc-item-bottom {
+        margin-top: 30px !important;
+        flex-wrap: wrap;
+      }
+    }
+    .all-platform {
+      &-title {
+        font-size: 20px;
+        margin-top: 17px;
+      }
+      &-divide {
+        height: 2px;
+        margin-top: -15px;
+        margin-bottom: 30px;
+      }
+    }
+    .open-domain-content {
+      &-title {
+        font-size: 18px;
+        margin-top: 18px;
+      }
+      &-footer {
+        width: 140px;
+        height: 50px;
+        margin-top: 45px;
+        margin-bottom: 80px;
+      }
+    }
+  }
+}

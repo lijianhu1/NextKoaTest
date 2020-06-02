@@ -1,0 +1,23 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "KD45DX66RH.ltd.deepblue.eip",
+                "paths": [ "*"]
+            },
+            {
+                "appID": "R42WUF8YHW.ltd.deepblue.eip",
+                "paths": [ "*"]
+            },
+            {
+                "appID": "KD45DX66RH.ltd.deepblue.business",
+                "paths": [ "*"]
+            },
+            {
+                "appID": "R42WUF8YHW.ltd.deepblue.business",
+                "paths": [ "*"]
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+
+@media (min-width: 576px) {
+  .download-content {
+    position: relative;
+    .desc {
+      position: absolute;
+      top: 50%;
+      right: 20%;
+      transform: translateY(-50px);
+    }
+    .code {
+      position: absolute;
+      right: 20%;
+      top: 55%;
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        &:nth-of-type(1) {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .download-content {
+    position: relative;
+    .desc {
+      position: absolute;
+      top: 50%;
+      width: 90%;
+      transform: translateY(-50px);
+    }
+    .code {
+      position: absolute;
+      top: 51%;
+      right: 10%;
+      img {
+        width: 120px;
+        &:nth-of-type(1) {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

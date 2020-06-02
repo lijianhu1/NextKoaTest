@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": "> 5%"
+      }
+    ],
+    "next/babel",
+    "@zeit/next-typescript/babel"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "less"
+      }
+    ],
+    //ssr 预编译模式
+    ["styled-components", { "ssr": true }]
+  ]
+}
