@@ -35,7 +35,7 @@ module.exports = {
       repo: 'git@github.com:lijianhu1/NextKoaTest.git',
       path: '/root/NextPsb',
       'post-deploy':
-        'npm install && npm run build && pm2 reload ecosystem.config.js --only PSB_DEV --env dev'
+        'cnpm install && npm run build && pm2 reload ecosystem.config.js --only PSB_DEV --env dev'
     }
   }
 }
